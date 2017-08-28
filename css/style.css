@@ -32,6 +32,16 @@ body {
     margin: 1px;
     z-index: 2;
     cursor: pointer;
+    letter-spacing: -3px;
+}
+
+#container div:active {
+    padding: 8px;
+    border: 2px solid rgb(23, 92, 173);
+}
+
+#container div:focus {
+    outline: 0;
 }
 
 #container .empty {
