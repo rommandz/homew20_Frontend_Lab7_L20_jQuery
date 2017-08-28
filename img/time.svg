@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>time</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1" transform="translate(-23.000000, -32.000000)">
+            <g id="time" transform="translate(25.000000, 34.000000)">
+                <path d="M6.5,13 C10.0898509,13 13,10.0898509 13,6.5 C13,2.91014913 10.0898509,4.4408921e-16 6.5,4.4408921e-16 C2.91014913,4.4408921e-16 4.4408921e-16,2.91014913 4.4408921e-16,6.5 C4.4408921e-16,10.0898509 2.91014913,13 6.5,13 Z M6.5,14.5999999 C2.02649358,14.5999999 -1.5999999,10.9735064 -1.5999999,6.5 C-1.5999999,2.02649358 2.02649358,-1.5999999 6.5,-1.5999999 C10.9735064,-1.5999999 14.5999999,2.02649358 14.5999999,6.5 C14.5999999,10.9735064 10.9735064,14.5999999 6.5,14.5999999 Z" id="Oval-2-Copy-2" fill="#4A90E2" fill-rule="nonzero"></path>
+                <polyline id="Path-8-Copy-2" stroke="#4A90E2" stroke-width="1.5999999" stroke-linecap="round" stroke-linejoin="round" points="6.5 2.4375 6.5 6.5 8.125 8.125"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>
