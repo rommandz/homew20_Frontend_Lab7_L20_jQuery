@@ -1,4 +1,3 @@
-/*jshint esversion: 6 */
 let winArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 0];
 let mapNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 0];
 const clickCellprop = {
@@ -41,6 +40,10 @@ function checkIsEmptyNear(n) {
     let width = $("#container div").outerWidth() + "px";
     let heigth = $("#container div").outerHeight() + "px";
     clickCellprop.isMove = false;
+    if (n === "") {
+        clickCellprop.isMove = false;
+        return;
+    }
     clickCellprop.indexClicked = mapNumbers.findIndex(el => el === n);
     clickCellprop.indexEmpty = mapNumbers.findIndex(el => el === 0);
 
@@ -107,7 +110,12 @@ function clearStopWatch() {
 
 function animate(event) {
     let value = $(this).html();
-    checkIsEmptyNear(parseInt(value));
+    if (value === "") {
+        value = value;
+    } else {
+        value = parseInt(value);
+    }
+    checkIsEmptyNear(value);
     if (clickCellprop.isMove) {
         swap(clickCellprop.indexClicked, clickCellprop.indexEmpty, mapNumbers);
         $(this).animate(clickCellprop.cssObjOfMove, 425).promise()

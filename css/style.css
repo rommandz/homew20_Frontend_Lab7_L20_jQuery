@@ -35,7 +35,7 @@ body {
     letter-spacing: -3px;
 }
 
-#container div:active {
+#container div:active:not(.empty) {
     padding: 8px;
     border: 2px solid rgb(23, 92, 173);
 }
